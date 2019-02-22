@@ -8,11 +8,11 @@ function tip_calculator(bill)
         return total_bill=bill+(bill*(20/100));
         
     }
-    else if(bill>50 && bill<200)
+    else if(bill>=50 && bill<200)
     {
         return total_bill=bill+(bill*(15/100));
     }
-    else if(bill>200)
+    else if(bill>=200)
     {
         return total_bill=bill+(bill*(10/100));
     }
