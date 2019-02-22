@@ -1,0 +1,17 @@
+body {
+    background-image: url("5.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+    .t1 {
+        background-color: rgb(240, 204, 150);
+        text-align:center;
+        LINE-HEIGHT:40px;
+        color: black;
+    }
+    .f1{
+        font-family:'';
+    }
