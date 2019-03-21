@@ -7,9 +7,10 @@
     </head>
 
     <body>
-        <div class="wrapper clearfix">
-                <input type ='text' class = 'winningScore' placeholder = 'enter winning score'>
-            <div class="player-0-panel active">
+        <div class="wrapper clearfix"> 
+            <form><input type ='number' style='width: 22%;' min="0" max="150" oninput="validity.valid||(value='');" class = 'winningScore' placeholder = 'enter winning score btw 10-150'>
+               </form>
+                <div class="player-0-panel active">
                 <div class="player-name" id="name-0">Player 1</div>
                 <div class="player-score" id="score-0">43</div>
                 <div class="player-current-box">

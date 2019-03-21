@@ -60,7 +60,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     // get winning score
     var input = document.querySelector('.winningScore').value;
     // if there is an input
-    if(input) {
+    if(input>=0 && input<=150) {
        winningScore = input;
     } else {
       // without input default score
